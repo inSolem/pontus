@@ -1,0 +1,217 @@
+p, label{
+  font-family: 'gruppo', cursive;
+  font-size: 2rem !important;
+  line-height: 1.5;
+}
+
+h1,h2,h3,h5{
+  font-family: 'chango', cursive;
+  line-height: 1.5;
+}
+
+body{
+  text-align: center;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+a:hover{
+  color: #FFA600 !important;
+}
+
+
+/* Shared properties */
+
+.big-heading{
+  font-family: 'chango', cursive;
+  color: #FFA500;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 7% 15%
+}
+
+.container{
+  padding: 7% 15%;
+}
+
+.right-align{
+  text-align: right;
+}
+
+.left-align{
+  text-align: left;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color:  #143D59;
+  color: #fff;
+}
+
+.white-section{
+  background-color: white;
+  color:  #143D59;
+}
+
+/* Navigation bar */
+
+#heading{
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 100%), url("../assets/img/seafood.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar{
+  padding: 4.5rem;
+  position: absolute !important;
+  top: 0px !important;
+  width: 100%;
+}
+
+.navbar-brand{
+  font-family: 'expletus', cursive;
+  font-weight: bold;
+  font-size: 2rem !important;
+}
+
+.navbar-brand:hover{
+  color: #FFA600 !important;
+}
+
+.nav-link{
+  font-family: 'gruppo', cursive;
+  font-size: 1.5rem !important;
+}
+
+/* About */
+
+.features{
+  padding: 4%!important;
+}
+
+.features-icon{
+  font-size: 4rem;
+  color:  #FFA500;
+}
+
+.features-icon:hover{
+  color: #FFC14D;
+}
+
+.features-header{
+  margin-top: 1rem !important;
+  text-align: center !important;
+}
+
+.features-header:hover{
+  color: #FCF1DE;
+}
+
+.features-description{
+  font-size: 1.5rem !important;
+  text-align: center;
+  padding-left: 0.5rem !important;
+}
+
+/* Soultions */
+
+
+/* Reviews */
+#reviews{
+  background-color: #345063;
+  align-items: center;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 2%;
+}
+
+.testimonial-image{
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Contact */
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 400px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 400px;
+  width: 100%;
+}
+
+.message-container{
+  padding: 5% !important;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.message-container-2{
+  padding: 5%!important;
+  margin-left: 5% !important;
+}
+
+/* Linkedin */
+
+#Linkedin{
+  align-self: center;
+}
+
+.linkedin-link{
+  color: white;!important;
+}
+
+.linkedin-profile{
+  border: ridge #FCF1DE;
+  margin: 2%;
+}
+
+.linkedin-pic{
+  height: 5rem;
+  width: auto;
+  border-radius: 100%;
+  margin: 4% 0;
+}
+
+.linkedin-text{
+  font-size: 1.5rem !important;
+  text-align: center;
+}
+
+/* Footer */
+
+.contact-icon{
+  margin: 2%;
+  color:  #143D59;!important
+}
+
+.copyright{
+  font-size: 1.2rem !important;
+  text-align: center;
+}
